@@ -1,0 +1,5 @@
+--producer
+kafkacat -b localhost:9092 -t topic-read-json -T -P -l /home/aline/Downloads/calls_v3.json
+
+--consumer
+kafkacat -b localhost:9092 -t topic-read-json -C
