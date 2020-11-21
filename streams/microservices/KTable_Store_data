@@ -1,0 +1,93 @@
+
+
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.Consumed;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.KafkaStreams.State;
+import org.apache.kafka.streams.KeyValue;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.kstream.Joined;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.KTable;
+import org.apache.kafka.streams.kstream.Produced;
+import org.apache.kafka.streams.kstream.Transformer;
+import org.apache.kafka.streams.processor.ProcessorContext;
+import org.apache.kafka.streams.state.KeyValueStore;
+import org.apache.kafka.streams.state.StoreBuilder;
+import org.apache.kafka.streams.state.Stores;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+
+  private KafkaStreams processStreams(final String bootstrapServers, final String stateDir) {
+
+    //Latch onto instances of the CALLS and CALLS topics
+    final StreamsBuilder builder = new StreamsBuilder();
+    final KStream<String, Calls> CALLS = builder
+        .stream(Topics.CALLS.name(),
+            Consumed.with(Topics.CALLS.keySerde(), Topics.CALLS.valueSerde()));
+    final KTable<Product, Integer> warehouseCALLS = builder
+        .table(Topics.WAREHOUSE_CALLS.name(), Consumed
+            .with(Topics.WAREHOUSE_CALLS.keySerde(), Topics.WAREHOUSE_CALLS.valueSerde()));
+
+   
+    return new KafkaStreams(builder.build(),
+        MicroserviceUtils.baseStreamsConfig(bootstrapServers, stateDir, CALLS_SERVICE_APP_ID));
+  }
+
+  private static class CALLSValidator implements
+      Transformer<Product, KeyValue<Calls, Integer>, KeyValue<String, CallsValidation>> {
+
+    private KeyValueStore<Product, Long> reservedStocksStore;
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public void init(final ProcessorContext context) {
+      reservedStocksStore = (KeyValueStore<Product, Long>) context
+          .getStateStore(RESERVED_STOCK_STORE_NAME);
+    }
+
+    @Override
+    public KeyValue<String, CallsValidation> transform(final Product productId,
+        final KeyValue<Calls, Integer> CallsAndStock) {
+      //Process each Calls/CALLS pair one at a time
+      final CallsValidation validated;
+      final Calls Calls = CallsAndStock.key;
+      final Integer warehouseStockCount = CallsAndStock.value;
+
+      //Look up locally 'reserved' stock from our state store
+      Long reserved = reservedStocksStore.get(Calls.getProduct());
+      if (reserved == null) {
+        reserved = 0L;
+      }
+
+      //If there is enough stock available (considering both warehouse CALLS and reserved stock) validate the Calls
+      if (warehouseStockCount - reserved - Calls.getQuantity() >= 0) {
+        //reserve the stock by adding it to the 'reserved' store
+        reservedStocksStore.put(Calls.getProduct(), reserved + Calls.getQuantity());
+        //validate the Calls
+        validated = new CallsValidation(Calls.getId(), CALLS_CHECK, PASS);
+      } else {
+        //fail the Calls
+        validated = new CallsValidation(Calls.getId(), CALLS_CHECK, FAIL);
+      }
+      return KeyValue.pair(validated.getCallsId(), validated);
+    }
+
+    @Override
+    public KeyValue<String, CallsValidation> punctuate(final long timestamp) {
+      return null;
+    }
+
+    @Override
+    public void close() {
+    }
+  }
+
+  public static void main(final String[] args) throws Exception {
+    final CALLService service = new CALLService();
+    service.start(parseArgsAndConfigure(args));
+    addShutdownHookAndBlock(service);
+  }
+}
