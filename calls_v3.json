@@ -1,0 +1,702 @@
+[
+  {
+    "agentId": 2,
+    "durationMinutes": 8.53,
+    "answered": "2020-01-23T09:12:00Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.12
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 13.6,
+    "answered": "2020-01-23T09:21:26Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.01
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 1.7,
+    "answered": "2020-01-23T09:20:29Z",
+    "customerScore": 5,
+    "waitingMinutes": 1.04
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 3,
+    "answered": "2020-01-23T09:25:33Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.36
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 6.3,
+    "answered": "2020-01-23T09:25:53Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.06
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 10.8,
+    "answered": "2020-01-23T09:35:08Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.89
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 7,
+    "answered": "2020-01-23T09:29:28Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.45
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 7.35,
+    "answered": "2020-01-23T09:37:30Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.92
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 3.83,
+    "answered": "2020-01-23T09:46:50Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.13
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 3.1,
+    "answered": "2020-01-23T09:55:12Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.87
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 13.79,
+    "answered": "2020-01-23T09:59:44Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.39
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 14.75,
+    "answered": "2020-01-23T09:59:23Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.81
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 9.02,
+    "answered": "2020-01-23T10:08:35Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.26
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 9.21,
+    "answered": "2020-01-23T10:15:40Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.72
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.48,
+    "answered": "2020-01-23T10:15:57Z",
+    "customerScore": 2,
+    "waitingMinutes": 3
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 8.86,
+    "answered": "2020-01-23T10:20:45Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.44
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 15.69,
+    "answered": "2020-01-23T10:23:49Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.9
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 55.38,
+    "answered": "2020-01-23T10:26:19Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.27
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 11.64,
+    "answered": "2020-01-23T10:39:18Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.14
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 14.69,
+    "answered": "2020-01-23T10:53:45Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.3
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 8.6,
+    "answered": "2020-01-23T10:51:47Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.52
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 10.33,
+    "answered": "2020-01-23T11:23:45Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.35
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 7.16,
+    "answered": "2020-01-23T11:09:44Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.28
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 10.59,
+    "answered": "2020-01-23T11:21:08Z",
+    "customerScore": 2,
+    "waitingMinutes": 1.29
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 13.83,
+    "answered": "2020-01-23T11:02:39Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.48
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 11.84,
+    "answered": "2020-01-23T11:35:04Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.51
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 3.62,
+    "answered": "2020-01-23T11:09:42Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.57
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 13.91,
+    "answered": "2020-01-23T11:23:10Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.2
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 10.35,
+    "answered": "2020-01-23T11:47:47Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.25
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 9.79,
+    "answered": "2020-01-23T11:39:30Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.33
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 2.93,
+    "answered": "2020-01-23T11:59:51Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.1
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.52,
+    "answered": "2020-01-23T11:38:57Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.79
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 13.89,
+    "answered": "2020-01-23T11:40:24Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.93
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 4.78,
+    "answered": "2020-01-23T11:59:30Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.82
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 5.25,
+    "answered": "2020-01-23T12:03:02Z",
+    "customerScore": 5,
+    "waitingMinutes": 1.5
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 3.68,
+    "answered": "2020-01-23T12:05:03Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.09
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 5.35,
+    "answered": "2020-01-23T12:06:42Z",
+    "customerScore": 1,
+    "waitingMinutes": 2.67
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 13.89,
+    "answered": "2020-01-23T12:07:32Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.97
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 13.43,
+    "answered": "2020-01-23T12:08:18Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.41
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 7.31,
+    "answered": "2020-01-23T12:10:06Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.54
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 9.39,
+    "answered": "2020-01-23T12:12:10Z",
+    "customerScore": 3,
+    "waitingMinutes": 3.95
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 11.29,
+    "answered": "2020-01-23T12:21:50Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.34
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 12.97,
+    "answered": "2020-01-23T12:27:24Z",
+    "customerScore": 5,
+    "waitingMinutes": 1.94
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 8.19,
+    "answered": "2020-01-23T12:33:58Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.61
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 8.35,
+    "answered": "2020-01-23T12:44:24Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.75
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 14.59,
+    "answered": "2020-01-23T12:43:17Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.91
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 12.83,
+    "answered": "2020-01-23T12:53:36Z",
+    "customerScore": 2,
+    "waitingMinutes": 1.32
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 7.66,
+    "answered": "2020-01-23T12:55:53Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.64
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 7.39,
+    "answered": "2020-01-23T12:59:38Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.16
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 6.13,
+    "answered": "2020-01-23T13:09:53Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.83
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.66,
+    "answered": "2020-01-23T13:09:35Z",
+    "customerScore": 2,
+    "waitingMinutes": 1.74
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 11.86,
+    "answered": "2020-01-23T13:06:38Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.49
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 12.35,
+    "answered": "2020-01-23T13:19:19Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.19
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 11.5,
+    "answered": "2020-01-23T13:16:00Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.58
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 0.1,
+    "answered": "2020-01-23T13:20:33Z",
+    "customerScore": 1,
+    "waitingMinutes": 0.6
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 5.1,
+    "answered": "2020-01-23T13:34:06Z",
+    "customerScore": 2,
+    "waitingMinutes": 3.96
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 7.32,
+    "answered": "2020-01-23T13:28:57Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.85
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 10.21,
+    "answered": "2020-01-23T13:36:39Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.66
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 7.98,
+    "answered": "2020-01-23T13:48:59Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.78
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.69,
+    "answered": "2020-01-23T13:45:49Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.65
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 13.68,
+    "answered": "2020-01-23T13:57:16Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.98
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 8.05,
+    "answered": "2020-01-23T13:51:17Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.18
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 11.68,
+    "answered": "2020-01-23T13:59:57Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.86
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.16,
+    "answered": "2020-01-23T13:57:42Z",
+    "customerScore": 5,
+    "waitingMinutes": 1.08
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 0.15,
+    "answered": "2020-01-23T14:04:47Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.73
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 9.96,
+    "answered": "2020-01-23T14:15:06Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.62
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 5.08,
+    "answered": "2020-01-23T14:27:46Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.63
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 13.56,
+    "answered": "2020-01-23T14:35:41Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.99
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 4,
+    "answered": "2020-01-23T14:28:45Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.55
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 8.63,
+    "answered": "2020-01-23T14:44:38Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.68
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 6.98,
+    "answered": "2020-01-23T14:49:38Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.23
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 5,
+    "answered": "2020-01-23T14:54:24Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.56
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 12.46,
+    "answered": "2020-01-23T15:00:22Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.21
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 9.65,
+    "answered": "2020-01-23T15:27:17Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.37
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 10.52,
+    "answered": "2020-01-23T15:30:29Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.71
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 8.06,
+    "answered": "2020-01-23T15:37:53Z",
+    "customerScore": 3,
+    "waitingMinutes": 1.47
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 8,
+    "answered": "2020-01-23T15:41:20Z",
+    "customerScore": 2,
+    "waitingMinutes": 1.17
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 8.8,
+    "answered": "2020-01-23T15:41:25Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.38
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 8.3,
+    "answered": "2020-01-23T16:01:08Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.35
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 25.1,
+    "answered": "2020-01-23T16:01:25Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.31
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 8.64,
+    "answered": "2020-01-23T16:14:45Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.4
+  },
+  {
+    "agentId": 1,
+    "durationMinutes": 3.2,
+    "answered": "2020-01-23T16:34:19Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.53
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 8.64,
+    "answered": "2020-01-23T16:38:11Z",
+    "customerScore": 3,
+    "waitingMinutes": 2.88
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 6.49,
+    "answered": "2020-01-23T16:50:06Z",
+    "customerScore": 2,
+    "waitingMinutes": 1.11
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 1,
+    "answered": "2020-01-23T16:56:36Z",
+    "customerScore": 4,
+    "waitingMinutes": 2.43
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 1.8,
+    "answered": "2020-01-23T16:58:35Z",
+    "customerScore": 5,
+    "waitingMinutes": 1.59
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 10.32,
+    "answered": "2020-01-23T17:01:13Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.69
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 6.17,
+    "answered": "2020-01-23T17:14:09Z",
+    "customerScore": 1,
+    "waitingMinutes": 1.02
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 13.17,
+    "answered": "2020-01-23T17:22:06Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.46
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 4.1,
+    "answered": "2020-01-23T17:23:56Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.15
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 4.7,
+    "answered": "2020-01-23T17:24:06Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.22
+  },
+  {
+    "agentId": 3,
+    "durationMinutes": 10.39,
+    "answered": "2020-01-23T17:32:46Z",
+    "customerScore": 5,
+    "waitingMinutes": 2.7
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 10.79,
+    "answered": "2020-01-23T17:48:05Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.17
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 22.6,
+    "answered": "2020-01-23T17:54:46Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.24
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 6.06,
+    "answered": "2020-01-23T18:19:19Z",
+    "customerScore": 4,
+    "waitingMinutes": 1.8
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 12.8,
+    "answered": "2020-01-23T18:14:18Z",
+    "customerScore": 5,
+    "waitingMinutes": 0.03
+  },
+  {
+    "agentId": 4,
+    "durationMinutes": 13.6,
+    "answered": "2020-01-23T18:29:36Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.84
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 6.95,
+    "answered": "2020-01-23T18:27:31Z",
+    "customerScore": 3,
+    "waitingMinutes": 0.07
+  },
+  {
+    "agentId": 2,
+    "durationMinutes": 11.55,
+    "answered": "2020-01-23T18:53:13Z",
+    "customerScore": 2,
+    "waitingMinutes": 2.76
+  },
+  {
+    "agentId": 5,
+    "durationMinutes": 2.86,
+    "answered": "2020-01-23T18:53:22Z",
+    "customerScore": 4,
+    "waitingMinutes": 0.42
+  }
+]
