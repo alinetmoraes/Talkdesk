@@ -1,0 +1,6 @@
+//Execute query in KSQL  to filter stream
+ksql> CREATE STREAM calls (agentId int, med_durationMinutes bigint) WITH (kafka_topic='topic_read_json', value_format='JSON');
+ksql> CREATE STREAM med_durationMinutes as select avg(durationMinutes) med_durationMinutes group by agentId;
+ 
+
+});
