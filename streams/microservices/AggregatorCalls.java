@@ -40,19 +40,6 @@ public class AggregatorCalls implements Service {
         .stream(CallsS.name(), serdes2)
         .filter((id, Calls) -> CallsState.CREATED.equals(Calls.getState()));
 
-   
-    validations
-        .groupByKey(serdes3)
-        .windowedBy(SessionWindows.with(5 * MIN))
-        .aggregate(
-            () -> 0L,
-            (id, result, total) -> PASS.equals(result.getValidationResult()) ? total + 1 : total,
-            (k, a, b) -> b == null ? a : b, //include a merger as we're using session windows.
-            Materialized.with(null, Serdes.Long())
-        )
-        
-
-
     return new KafkaStreams(builder.build(),
         baseStreamsConfig(bootstrapServers, stateDir, SERVICE_APP_ID));
   }
