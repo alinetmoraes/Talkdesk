@@ -37,7 +37,7 @@ import org.slf4j.LoggerFactory;
     private KeyValueStore<Product, Long> reservedStocksStore;
    }
 
- public static void main(final String[] args) throws Exception {
+public static void main(final String[] args) throws Exception {
     final CALLService service = new CALLService();
     service.start(parseArgsAndConfigure(args));
     addShutdownHookAndBlock(service);
