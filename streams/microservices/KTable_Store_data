@@ -16,8 +16,6 @@ import org.apache.kafka.streams.state.Stores;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
-
   private KafkaStreams processStreams(final String bootstrapServers, final String stateDir) {
 
     //Latch onto instances of the CALLS and CALLS topics
