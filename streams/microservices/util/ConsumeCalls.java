@@ -1,8 +1,3 @@
-package io.confluent.examples.streams.microservices.util;
-
-import io.confluent.examples.streams.microservices.domain.Schemas.Topics;
-import io.confluent.examples.streams.utils.MonitoringInterceptorUtils;
-import io.confluent.kafka.serializers.AbstractKafkaAvroSerDeConfig;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
