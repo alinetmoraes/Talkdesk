@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    description: A clone of a Postgres application database.
     database: dbt-tutorial
     schema: jaffle_shop
     loaded_at_field: _etl_loaded_at
@@ -10,15 +11,19 @@ sources:
         error_after: {count: 24, period: hour}
     tables:
       - name: customers
+        description: Raw customers data.
         columns:
           - name: id
+            description: Primary key for customers.
             tests:
               - unique
               - not_null
             
       - name: orders
+        description: Raw orders data.
         columns:
           - name: id
+            description: Primary key for orders.
             tests:
               - unique              
               - not_null
