@@ -10,4 +10,15 @@ sources:
         error_after: {count: 24, period: hour}
     tables:
       - name: customers
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+            
       - name: orders
+        columns:
+          - name: id
+            tests:
+              - unique              
+              - not_null
